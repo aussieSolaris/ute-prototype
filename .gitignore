@@ -134,3 +134,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Backend (Rust)
+backend/target/
+
+# Frontend (React) - Scoped to subdirectory
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
